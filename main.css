@@ -1,19 +1,23 @@
+/* Set the background image for the entire body element */
 body {
-    background-image: url(macbook_mouse.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+  background-image: url(macbook_mouse.jpg); /* URL of the background image */
+  background-attachment: fixed; /* The background image will not scroll with the content */
+  background-position: center; /* Center the background image horizontally and vertically */
+  background-size: cover; /* Resize the background image to cover the entire body */
 }
 
+/* Style for the h1 element inside the header element */
 header h1 {
-    line-height: 40vw;
-    z-index: 10;
+  line-height: 40vw; /* Set the line height of the h1 element to 40% of the viewport width (vw) */
+  z-index: 10; /* Set the stacking order for the h1 element (useful when dealing with overlapping elements) */
 }
 
+/* Styles for elements with the class 'card' inside the 'main' element */
 main .card {
-    min-height: 350px;
+  min-height: 350px; /* Set a minimum height of 350 pixels for elements with the class 'card' */
 }
 
+/* Styles for <p> elements inside elements with the class 'card' inside the 'main' element */
 main .card p {
-    min-height: 250px;
+  min-height: 250px; /* Set a minimum height of 250 pixels for <p> elements inside elements with the class 'card' */
 }
